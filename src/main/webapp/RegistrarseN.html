@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="EstilosRegistrarse.css" rel="stylesheet" type="text/css"/>
+        <style>
+            table{
+                margin:auto /* Centra la tabla */
+            }
+
+            #emailAst, #nombreAst, #passwordAst, #repitaPasswordAst {
+                color:red;
+            }
+
+            /* Rellena con 5 pixels arriba, abajo, izquierda y derecha
+               de cada celda de la tabla */
+            td {
+                padding:10px; 
+            }
+        </style>
+    </head>
+    <body>
+        <div id="rectangle" class="col-s-12"></div>
+        <h3 id="encabezado">Mi dinero y yo</h3>
+        <img id="mano" src="mano.png" alt=""/>
+        <div class="texto-encima">
+            <h2 class="menu"><a href="index.html">Inicio</a></h2>
+            <h2 class="menu"><a href="Categorias.html">Categorias</a></h2>    
+        </div>
+        
+        <div>
+
+            <main class="col-s-10">
+                <div id="caja" class="col-s-1"></div>
+                <div id="cajaTransparente" class="col-s-4"></div>
+                <div id="cajaRegistro" class="col-s-6"><div>
+
+                        <h1 class="registrar" style="text-align: center">Regístrese</h1>
+
+                        <form  method = "post"  id = "frmRegistrese" action ="ControladorUsuario?registreseOcrear=">
+
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label class="registrar" for="NombreCompleto" >Nombre y Apellido </label>
+                                    </td>
+                                    <td>
+                                        <input class="registrar" type="text" name="NombreCompleto" id="nombreUsuario" required>
+                                        <span id="nombreAst">*</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="registrar" for="email" >Email</label>
+                                    </td>
+                                    <td>
+                                        <input class="registrar" type="email" name="email" id="email" required >
+                                        <span id="emailAst">*</span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label class="registrar" for="password">Password </label>
+                                    </td>
+                                    <td>
+                                        <input class="registrar" type="password" name="password" id="password" required>
+                                        <span id="passwordAst">*</span>
+                                        <!-- se asocia el evento mostrarPassword de Javascript con el evento click del checkbox -->
+                                        <input class="registrar" type="checkbox" onclick="mostrarPassword()">Mostrar Password
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="registrar" for="repitaPassword">Repita Password</label>
+                                    </td>
+                                    <td>
+                                        <input class="registrar" type="password" name="repitaPassword" id="repitaPassword" required>
+                                        <span id="repitaPasswordAst">*</span>
+                                        <!-- se asocia el evento mostrarRepitaPassword de Javascript con el evento click del checkbox -->
+                                        <input class="registrar" type="checkbox" onclick="mostrarRepitaPassword()">Mostrar Password
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="registrar" for="PresupuestoTotal" >Presupuesto total </label>
+                                    </td>
+                                    <td>
+                                        <input class="registrar" type="text" name="PresupuestoTotal" id="nombreUsuario" required>
+                                        <span id="nombreAst">*</span>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td colspan="2" style="text-align: center">
+                                        <input class="registrar" type="submit" value="Registrarse" id="botonEnviar"/>
+
+                                    </td>   
+                                </tr>
+                            </table>
+                        </form> 
+
+                        </main>
+                    </div>
+                    
+                    </body>
+                    </html>
+
+
+
+                    

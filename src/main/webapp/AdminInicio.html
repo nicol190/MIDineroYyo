@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table{
+                margin:auto /* Centra la tabla */
+                
+            }
+            table, th, td {
+                border: 1px solid black;
+            }
+            /* Rellena con 5 pixels arriba, abajo, izquierda y derecha
+               de cada celda de la tabla */
+
+            td {
+                padding:5px;
+            }
+
+            /* Cambia el color de fondo y de la letra de las filas impares de la tabla */*
+            tbody tr:nth-child(odd){
+                background-color: #33b5e5;
+                color: #ffffff;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <main class="col-6 col-s-10">       
+                <h1 style="text-align: center">Administrador</h1>                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pagina</th>
+                            <th>consejo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>inicio</td>
+                            <td>Si nunca has establecido un presupuesto 
+             de ingresos y gastos,<br> ¡ahora es el momento para comenzar!
+                            </td>
+                            <td><input type="button" value="Editar" /></td>
+                        </tr>
+                        <tr>
+                            <td>Categoria hogar</td>
+                            <td>Presupuesta...</td>
+                            <td><input type="button" value="Editar" /></td>
+                        </tr>
+                        <tr>
+                            <td>Categoria a</td>
+                            <td>aaaaaaaa</td>
+                            <td><input type="button" value="Editar" /></td>
+                        </tr>
+                        <tr>
+                            <td>Reportes</td>
+                            <td>Felicitaciones</td>
+                            <td><input type="button" value="Editar" /></td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </main>
+    </body>
+</html>

@@ -1,0 +1,287 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 nov. 2021, 15:47:29
+    Author     : Usuario
+*/
+html{background: white;}
+#rectangle{
+    width:100%;
+    height: 180px;
+    background:rgb(12, 213, 172);
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1em;
+}
+
+#encabezado{
+    
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+#mano{
+    
+    position: absolute;
+    top: 45px;
+    left: 430px;
+}
+
+.menu{
+    
+    font-family: arial, sans-serif;
+    font-size: 250%;
+    padding: 1em; 
+    color: black;
+    float: left;
+    
+    
+}
+a{color: black;}
+
+.texto-encima{
+    position: absolute;
+    top: 5px;
+    left: 800px;
+}
+
+#iconoperfil{
+    width: 10em;
+    position: absolute;
+    top: 13px;
+    left: 1750px;
+}
+
+botton{
+    position: absolute;
+    height: 180px;
+}
+#nombre{
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    left: 1950px;
+    
+}
+
+#cerrarSesion{
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 100px;
+    left: 1950px;
+    
+}
+
+#rectanglePresupuesto{
+    padding: 0px;
+    width:100%;
+    height: 150px;
+    background:rgb(84, 226, 197);
+    position: relative;
+    display: inline-block;
+    border-width: thick;
+    border-style: solid;
+    border-color: rgb(12, 213, 172);
+}
+
+
+.presupuesto_total{
+    top: 290px;
+    left: 50px;
+    float: left;
+    position: absolute;
+    font-family: arial, sans-serif;
+    font-size: 40px;
+}
+
+.num_presupuesto_total{
+    top: 280px;
+    left: 400px;
+    background-color: white;
+    padding: 0.3em;
+    padding-left: 5em;
+    float: left;
+    position: absolute;
+    font-family: arial, sans-serif;
+    font-size: 40px;
+    text-align: right;
+    color:grey;
+}
+
+.presupuesto_disponible{
+    top: 290px;
+    left: 1050px;
+    float: left;
+    position: absolute;
+    font-family: arial, sans-serif;
+    font-size: 40px;
+}
+
+.num_presupuesto_disponible{
+    top: 280px;
+    left: 1500px;
+    background-color: white;
+    padding: 0.3em;
+    padding-left: 5em;
+    float: left;
+    position: absolute;
+    font-family: arial, sans-serif;
+    font-size: 40px;
+    text-align: right;
+    color:grey;
+}
+
+
+.titulo_bolsillo{
+    
+    color: rgb(12, 213, 172);
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 5em;
+}
+
+.presupuesto_categoria{
+    top: 690px;
+    left: 400px;
+    float: left;
+    position: absolute;
+    font-family: arial, sans-serif;
+    font-size: 40px;
+    
+}
+.num_presupuesto_categoria{
+    border-color: rgb(171, 171, 171);
+    border-width: medium;
+    border-style: solid;
+    top: 680px;
+    left: 900px;
+    background-color: white;
+    padding: 0.3em;
+    padding-left: 5em;
+    float: left;
+    position: absolute;
+    font-family: arial, sans-serif;
+    font-size: 40px;
+    text-align: right;
+    color:grey;
+    
+    
+}
+
+
+.crearBolsillo{
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    background-color: transparent;
+    padding: 0.5em;
+    position: absolute;
+    border: 5px solid #54E2C5;
+    border-radius: 6px;
+    top: 840px;
+    left: 1050px;
+    
+}
+
+.guardarBolsillo{
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    background-color: transparent;
+    padding: 0.5em;
+    position: absolute;
+    border: 5px solid #54E2C5;
+    border-radius: 6px;
+    top: 840px;
+    left: 1350px;
+}
+
+
+.btn1:hover {
+      background-color: rgb(12, 213, 172);
+      color: white;
+ }
+
+ .cuadroBolsillo{
+    top: 400px;
+    /*left: 400px;*/
+    left: 15%;
+    width:1800px;
+    
+    height: 300px;
+    background:#EFEDEE;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1em;
+ }
+ 
+ .campos{
+     float: left;
+     font-family: arial, sans-serif;
+     font-size: 40px;
+     padding: 0.2em;
+     position: absolute;
+ }
+ 
+ .camposNom{
+    top: 50px;
+    left: 50px;
+    
+ }
+ .camposPre{
+    top: 50px;
+    left: 900px;
+    
+ }
+ .camposGasto{
+    top: 50px;
+    left: 1350px;
+    
+ }
+ 
+ .inputNom{
+    top: 150px;
+    left: 50px;
+    width: 800px;
+ }
+
+ .inputpre{
+    top: 150px;
+    left: 900px;
+    width: 400px;
+ }
+
+ .inputGasto{
+    top: 150px;
+    left: 1350px;
+    width: 400px;
+ }
+
+#premio{
+     display:  none;
+ }
+
+/*************PERFIL*************/
+.rectanguloVertical{
+    width:800px;
+    height: 8000px;
+    background: rgb(242, 242, 242);
+    position: relative;
+    display: none;
+    left: 1760px;
+    top: 0px;
+    border: 5px;
+    border-color: lightgray;
+    
+}
+
+/*************PERFIL*************/

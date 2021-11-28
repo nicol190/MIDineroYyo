@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="EstilosReportes.css" rel="stylesheet" type="text/css"/>
+
+        <style>
+            table{
+                margin:auto /* Centra la tabla */
+
+            }
+            table, th, td {
+                border: 1px solid black;
+            }
+            /* Rellena con 5 pixels arriba, abajo, izquierda y derecha
+               de cada celda de la tabla */
+
+            td {
+                padding:5px;
+            }
+
+            /* Cambia el color de fondo y de la letra de las filas impares de la tabla */*
+            tbody tr:nth-child(odd){
+                background-color: #33b5e5;
+                color: #ffffff;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Reportes</h1>
+        <div id="barra" class="col-s-12"></div>
+        <h3 id="encabezado">Mi dinero y yo</h3>
+        <img id="mano" src="mano.png" alt=""/>
+        <div class="texto-encima">
+            <h2 class="menu"><a href="index.html">Inicio</a></h2>
+            <h2 class="menu"><a href="Categorias.html">Categorias</a></h2>
+            <h2 class="menu"><a href="Reportes.html">Reportes</a></h2>
+        </div>
+
+        <div>
+            <main class="col-6 col-s-10">       
+                <div id="menu1" class="col-s-12">
+                    <h1>Reportes</h1>
+                    <h2 class="detalles">este mes ahorraste $180.000 mas que el mes anterior   </h2>
+                    <h2 class="detalles"><a href="Reportes2.html">Ver detalles</a></h2>
+                </div>
+
+                <div id="caja" class="col-s-1"></div>
+                <div id="caja2" class="col-s-1"></div>
+                <table border="2">  
+                    <thead>
+                        <tr>
+                            <th class="table">Categoria</th>
+                            <th class="table">Presupuesto</th>
+                            <th class="table">Gasto real</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table">Hogar</td>
+                            <td class="table">$400.000</td>
+                            <td class="table">$300.000</td>
+                        </tr>
+                        <tr>
+                            <td class="table">Viajes</td>
+                            <td class="table">$500.000</td>
+                            <td class="table">$500.000</td>
+                        </tr>
+                        <tr>
+                            <td class="table">Transporte</td>
+                            <td class="table">$100.000</td>
+                            <td class="table">$120.000</td>
+                        </tr>
+                        <tr>
+                            <td class="table">total</td>
+                            <td class="table"> $1.100.000</td>
+                            <td class="table">$920.000</td>
+                        </tr>
+                        <tr>
+                            <td class="table">Presupuesto del mes</td>
+                            <td class="table">$1.200.000</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="table">Ahorro</td>
+                            <td class="table">ahorro esperado</td>
+                            <td class="table">ahorro real</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="table">$100.000</td>
+                            <td class="table">$280.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+        </div>
+
+
+    </body>
+</html>

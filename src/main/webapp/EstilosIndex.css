@@ -1,0 +1,89 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 nov. 2021, 11:10:39
+    Author     : Usuario
+*/
+
+h2{
+    font-family: arial, sans-serif;
+    font-size: 250%;
+    padding: 1em; 
+    color: black;
+    float: left;
+}
+
+a{color: black;}
+
+.botonInicio{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    float: left;
+}
+
+.botonRegistro{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    float: left;
+}
+
+h3{
+    font-family: arial, sans-serif;
+    font-size: 260%;
+    color: black;
+    float: left;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 30px;
+    line-height : 50px;
+    
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    
+}
+.texto-encima{
+    position: absolute;
+    top: 60px;
+    left: 800px;
+}
+
+
+.consejo{
+    width:1340px;
+    height: 180px;
+    background:rgb(172, 248, 232 );
+    left: 660px;
+    position: relative;
+    display: inline-block;
+    
+    
+}
+
+#consejo{
+    color:black;
+    top:1350px;
+    position: absolute;
+    left:  150px;
+    font-size: 80px;
+}
+
+#txt_consejo{
+    color:black;
+    top:1540px;
+    position: absolute;
+    left:  710px;
+    text-align: center;
+    
+}
+
+
+.col-12 {
+
+}

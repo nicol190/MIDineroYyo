@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Mis bolsillos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="EstilosBolsillos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="rectangle"></div>
+        <h3 id="encabezado">Mi dinero y yo</h3>
+        <img id="mano" src="mano.png" alt=""/>
+        <div class="texto-encima">
+            <h2 class="menu"><a href="index.html">Inicio</a></h2>
+            <h2 class="menu"><a href="Categorias.html">Categorias</a></h2>
+            <h2 class="menu"><a href="Reportes.html">Reportes</a></h2>
+        </div>
+
+        <!<!-- <button style="background: url(icono perfil.png)" onclick="mostrarRectangulo()" id= "iconoperfil">  -->
+        <img id= "iconoperfil" src="icono perfil sin fondo.png" alt=""/>
+
+        <h3 id="nombre">Nombre</h3>
+        <h4 id="cerrarSesion" >  Cerrar sesion</h4>
+
+        <h1>    </h1>
+
+        <div id="rectanglePresupuesto"  ></div>
+
+        <label class='presupuesto_total'> Presupuesto total</label>
+        <label class="num_presupuesto_total">  3.000.000 </label>
+
+        <label class='presupuesto_disponible'> Presupuesto disponible</label>
+        <label class="num_presupuesto_disponible">  2.780.000 </label>
+
+        <h1>  </h1>
+
+        <h1 class="titulo_bolsillo">Hogar</h1>
+
+        <h1>  </h1>
+
+        <label class='presupuesto_categoria'> Presupuesto para hogar</label>
+        <label class="num_presupuesto_categoria">  220.000 </label>
+        <h1>  </h1>
+
+        <div class="botones">
+            <button class="crearBolsillo btn1" type="button" onclick="mostrarPremio();"> Crear bolsillo </button>
+            <button class="guardarBolsillo btn1" type="submit" onclick="mostrarGuardado();"> Guardar </button>         
+        </div>   
+        <div class="cuadroBolsillo " id="premio">
+            <form id="bolsilloForm" >
+                <label class="camposNom campos "> Nombre del bolsillo </label>
+                <label class="camposPre campos "> Presupuesto </label>
+                <label class="camposGasto campos "> Gasto real </label> <br>
+                <input class="inputNom campos " type="text" name="nombreBolsillo">
+                <input class="inputpre campos " type="text" name="presupuesto">
+                <input class="inputGasto campos "  type="text" name="gasto">
+            </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!---------- PERFIL ------------>
+
+        <div class="rectanguloVertical"> </div>
+
+
+
+        <script type="text/javascript">
+            function mostrarPremio() {
+                
+                document.getElementById('premio').style.display = 'block';
+            }
+            
+            function mostrarGuardado(){
+                window.alert("Guardado!");
+            }
+        </script>
+    </body>
+</html>
