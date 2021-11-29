@@ -6,7 +6,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Created on : 28 nov. 2021, 19:34:40
     Author     : Usuario
 */
-html{background: white;}
+html{
+    background: white;
+}
 /*********BARRA DE MENU**********/
 .encabezado{
     float: left;
@@ -26,7 +28,7 @@ html{background: white;}
     height: 8%;
     bottom:50%;
     background:rgb(12, 213, 172);
-    
+
 }
 #mano{
     width: 100%;
@@ -51,10 +53,12 @@ html{background: white;}
     font-size: 1.5vw;
 }
 
-a{color: black;}
+a{
+    color: black;
+}
 
 .iconoperfil{
-    
+
     padding-top: 2%;
     padding-bottom:1.1%;
     height: 15%;
@@ -80,7 +84,8 @@ a{color: black;}
 #cerrarSesion{
     padding-top: 0.5%;
     font-size: 1vw;
-    background-color:rgb(12, 213, 172);;
+    background-color:rgb(12, 213, 172);
+    ;
 }
 
 .campana{
@@ -97,25 +102,91 @@ a{color: black;}
     width:90%;
 }
 /********* FIN BARRA DE MENU**********/
+
+.titulo-reporte-anterior{
+     font-family: arial,sans-serif;
+    position: relative;
+    text-align: center;
+}
+table{
+    margin:auto /* Centra la tabla */
+
+}
+table, th, td {
+    border: 1px solid black;
+}
+/* Rellena con 5 pixels arriba, abajo, izquierda y derecha
+   de cada celda de la tabla */
+
+td {
+    padding:5px;
+}
+
+/* Cambia el color de fondo y de la letra de las filas impares de la tabla */*
+tbody tr:nth-child(odd){
+    background-color: #33b5e5;
+    color: #ffffff;
+}
+.vacio5{
+    height: 100px;
+    float: left;
+        width: 1000%;  
+  
+}
+
+.imagen-reporte{
+    margin: 2%;
+    float: left;
+}
+
+
 /* Si el acho de la pantalla del dispositivo tiene como mínimo 600 px, aplique estos anchos a 
    los selectores */
 @media only screen and (min-width:600px){
     /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}  
-    
-    h1{ font-size:4.5vw; /* Hace responsive, al 2.5% del ancho del viewport, el tipo de letra del h1  */}
-    footer {font-size:3.5vw; }
+    .col-s-1 {
+        width: 8.33%;
+    }
+    .col-s-2 {
+        width: 16.66%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+    .col-s-10 {
+        width: 83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
+
+    h1{
+        font-size:4.5vw; /* Hace responsive, al 2.5% del ancho del viewport, el tipo de letra del h1  */
+    }
+    footer {
+        font-size:3.5vw;
+    }
 }
 
 
@@ -124,20 +195,48 @@ a{color: black;}
    los selectores */
 @media only screen and (min-width:768px){
     /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;} 
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
 
-    h1{ font-size:2.5vw; /* Hace responsive, al 2.5% del ancho del viewport, el tipo de letra del h1  */}
-    footer {font-size:0.8vw; }
+    h1{
+        font-size:2.5vw; /* Hace responsive, al 2.5% del ancho del viewport, el tipo de letra del h1  */
+    }
+    footer {
+        font-size:0.8vw;
+    }
 
 }

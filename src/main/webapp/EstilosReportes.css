@@ -132,6 +132,17 @@ a{color: black;}
     text-align: center;
    
 }
+.vacio5{
+    height: 100px;
+    float: left;
+        width: 1000%;  
+  
+}
+
+.imagen-reporte{
+    margin: 2%;
+    float: left;
+}
 
 
 
