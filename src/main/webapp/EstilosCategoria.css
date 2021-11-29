@@ -133,57 +133,54 @@ a{color: black;}
 }
 .hcategorias{
     float: left;
-    
     padding-right: 5%;
     padding-left: 5%;
+    padding-bottom: 9;
     font-family: arial,sans-serif;
-    font-size: 153%;
+    font-size: 1vw;
 }
 
 .scategorias{
     float: left;
-    
     padding-right: 5%;
     padding-left: 5%;
-    padding-bottom: 1.5%;
+    padding-bottom: 1.4%;
     font-family: arial,sans-serif;
-    font-size: 148%;
+    font-size: 1vw;
 }
 .acategorias{
     float: left;
-    
     padding-right: 6%;
     padding-left: 6%;
-    padding-top: 0.5%;
+    padding-bottom: 0.2;
     font-family: arial,sans-serif;
     text-align: center;
-    font-size: 118%;
+    font-size: 0.9vw;
 }
 
 .vcategorias{
     float: left;
-    
     padding-right: 6%;
     padding-left: 6%;
+    padding-bottom: 0.069%;
     font-family: arial,sans-serif;
-    font-size: 137%;
+    font-size: 1vw;;
 }
 .tcategorias{
     float: left;
-    
     padding-right: 7.1%;
     padding-left: 7.1%;
+    padding-bottom: 3.1%;
     font-family: arial,sans-serif;
-    font-size: 187%;
+    font-size: 1vw;
     
 }
 .ccategorias{
     float: left;
-    
     padding-right: 5%;
     padding-left: 5%;
     font-family: arial,sans-serif;
-    font-size: 150%;
+    font-size: 1vw;
 }
 .ancategorias{
     
@@ -193,7 +190,7 @@ a{color: black;}
     padding-left: 5%;
     padding-bottom: 2.9%;
     font-family: arial,sans-serif;
-    font-size: 150%;
+    font-size: 1vw;
 }
 .hocategorias{
     
@@ -203,7 +200,7 @@ a{color: black;}
     padding-left: 6%;
     padding-bottom: 4.6%;
     font-family: arial,sans-serif;
-    font-size: 150%;
+    font-size: 1vw;
 }
 .mcategorias{
     float: left;
@@ -212,7 +209,7 @@ a{color: black;}
     padding-left: 6%;
     padding-bottom: 5.3%;
     font-family: arial,sans-serif;
-    font-size: 150%;
+    font-size: 1vw;
 }
 .pcategorias{
    float: left;
@@ -221,7 +218,7 @@ a{color: black;}
     padding-left: 7.1%;
     padding-bottom: 4.7%;
     font-family: arial,sans-serif;
-    font-size: 150%;
+    font-size: 1vw;
 }
 
 .icategorias{
@@ -231,7 +228,7 @@ a{color: black;}
     padding-left: 5%;
     padding-bottom: 5.8%;
     font-family: arial,sans-serif;
-    font-size: 150%;
+    font-size: 1vw;
 }
 .rcategorias{
     float: left;
@@ -240,7 +237,7 @@ a{color: black;}
     padding-left: 5%;
   
     font-family: arial,sans-serif;
-    font-size: 150%;
+    font-size: 1vw;
 }
 .ecategorias{
     float: left;
@@ -249,7 +246,7 @@ a{color: black;}
     padding-left: 6%;
     padding-bottom: 4.3%;
     font-family: arial,sans-serif;
-    font-size: 150%;
+    font-size: 1vw;
 }
 .imcategorias{
     float: left;
@@ -258,7 +255,7 @@ a{color: black;}
     padding-left: 6%;
     padding-bottom: 5.6%;
     font-family: arial,sans-serif;
-    font-size: 150%;
+    font-size: 1vw;
 }
 .ahcategorias{
     float: left;
@@ -267,7 +264,7 @@ a{color: black;}
     padding-left: 7%;
     padding-bottom: 2.5%;
     font-family: arial,sans-serif;
-    font-size: 150%;
+    font-size: 1vw;
 }
 
 
