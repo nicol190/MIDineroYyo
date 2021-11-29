@@ -110,7 +110,10 @@ a{color: black;}
     text-align: center;
    
 }
-
+.vacio1{
+    height: 500px;
+    float: left;
+}
 #cuadro-general{
     float: left;
     background:rgb(12, 213, 172);
@@ -118,43 +121,44 @@ a{color: black;}
     height: 500px;
     width: 700px;
     text-align: center;
+    margin: 5%;
     padding: 1em;
     
 }
-.vacio1{
-    height: 500px;
-    float: left;
-    background-color: red
-}
-.rectangle-datos-sesion{
-    
-}
+
+
 .informacion-usuario{
     top: 50px;
     font-family: arial,sans-serif;
-    font-size: 30px;
+    font-size: 1.5vw;
     margin: 2em;
     padding: 3em;
    
-}
-
-.ingresar{
-    margin: 2em;
-    padding: 1em;
-    font-size: 18px;
-    
 }
 .obtener-datos{
     size: 50;
     height: 60;
     
 }
+
+.ingresar{
+    margin-top: 2em;
+    margin-right: 70%;
+    margin-left: 42%;
+    padding: 1em;
+    font-size: 1vw;
+    
+    
+    
+}
+
 .recupe-contra{
     bottom: 50px;
     font-family: arial,sans-serif;
-    font-size: 30px;
+    font-size: 1vw;
     margin: 2em;
-    padding: 3em;
+    padding: 1em;
+    
    
 }
 
