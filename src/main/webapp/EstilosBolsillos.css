@@ -7,15 +7,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : Usuario
 */
 html{background: white;}
-#rectangle{
-    width:100%;
-    height: 180px;
-    background:rgb(12, 213, 172);
-    position: relative;
-    display: inline-block;
-    padding-bottom: 1em;
-}
 
+/*********BARRA DE MENU**********/
 .encabezado{
     float: left;
     height: 8%;
@@ -26,7 +19,6 @@ html{background: white;}
     font-size: 2vw;
     padding-left: 1em;
 }
-
 
 .mano{
     padding-top: 2.1%;
@@ -62,13 +54,6 @@ html{background: white;}
 
 a{color: black;}
 
-.texto-encima{
-    position: relative;
-    top: 5px;
-    left: 800px;
-    
-}
-
 .iconoperfil{
     
     padding-top: 2%;
@@ -85,7 +70,6 @@ a{color: black;}
 
 .nombre{
     padding-top: 1.85%;
-    
     float: left;
     color: black;
     font-family: arial, sans-serif;
@@ -100,10 +84,6 @@ a{color: black;}
     background-color:rgb(12, 213, 172);;
 }
 
-#campana{
-    width:90%;
-}
-
 .campana{
     width: 10%;
     padding-top: 1.49%;
@@ -114,6 +94,10 @@ a{color: black;}
     float: left;
 }
 
+#campana{
+    width:90%;
+}
+/********* FIN BARRA DE MENU**********/
 
 botton{
     position: absolute;

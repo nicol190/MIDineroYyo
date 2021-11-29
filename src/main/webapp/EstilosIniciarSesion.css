@@ -7,48 +7,103 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : correi5
 */
 html{background: white;}
-    #rectangle{
-    width:2535px;
-    height: 180px;
+/*********BARRA DE MENU**********/
+.rectangulo{
+    background:blue;
+    width: 100%;
+    height: 50%
+}
+.encabezado{
+    float: left;
+    
     background:rgb(12, 213, 172);
     position: relative;
-    display: inline-block;
-    padding-bottom: 1em;
+    color:white;
+    padding: 0.5em;
+    padding-bottom: 0.89%;
+    font-size: 2vw;
+    padding-left: 1em;
 }
 
-#encabezado{
+.mano{
+    padding-top: 2.1%;
+    padding-bottom: 2.1%;
+    float: left;
+    height: 8%;
+    bottom:50%;
+    background:rgb(12, 213, 172);
     
-    color: white;
-    font-family: arial, sans-serif;
-    font-size: 50px;
-    position: absolute;
-    top: 25px;
-    left: 50px;
 }
 #mano{
-    
-    position: absolute;
-    top: 45px;
-    left: 430px;
+    width: 100%;
 }
 
 .menu{
-    
-    font-family: arial, sans-serif;
-    font-size: 250%;
-    padding: 1em; 
-    color: black;
+    padding-top: 2.6%;
+    padding-bottom: 2.6%;
+    padding-left: 5%;
     float: left;
-    
-    
+    height: 15%;
+    background:rgb(12, 213, 172);
+    position: relative;
+    font-family: arial, sans-serif;
+    color: black;
+    bottom:50%;
 }
+
+.opciones{
+    float: left;
+    padding-right: 0.8em;
+    font-size: 1.5vw;
+}
+
 a{color: black;}
 
-.texto-encima{
-    position: absolute;
-    top: 5px;
-    left: 600px;
+.iconoperfil{
+    
+    padding-top: 2%;
+    padding-bottom:1.1%;
+    height: 15%;
+    position: relative;
+    background-color: rgb(12, 213, 172);
+    float: left;
 }
+
+#iconoperfil{
+    width:75%;
+}
+
+.nombre{
+    padding-top: 1.85%;
+    float: left;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 1.5vw;
+    position: relative;
+    background-color: rgb(12, 213, 172);
+}
+
+#cerrarSesion{
+    padding-top: 0.5%;
+    font-size: 1vw;
+    background-color:rgb(12, 213, 172);;
+}
+
+.campana{
+    width: 10%;
+    padding-top: 1.49%;
+    padding-bottom:1.4%;
+    height: 15%;
+    position: relative;
+    background-color: rgb(12, 213, 172);
+    float: left;
+}
+
+#campana{
+    width:90%;
+}
+/********* FIN BARRA DE MENU**********/
+
 
 .titulo-iniciar{
     font-family: arial,sans-serif;
