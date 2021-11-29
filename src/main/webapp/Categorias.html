@@ -11,15 +11,23 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <link href="EstilosCategoria.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <!-- Encabezado -->
-        <div id="rectangle"></div>
-        <h3 id="encabezado">Mi dinero y yo</h3>
-        <img id="mano" src="mano.png" alt=""/>
-        <div class="texto-encima">
-            <h2 class="menu"><a href="index.html">Inicio</a></h2>
-            <h2 class="menu"><a href="Categorias.html">Categorias</a></h2>
-            <h2 class="menu"><a href="Reportes.html">Reportes</a></h2>
+        <!-- BARRA DE MENU -->
+        <div class="col-s-2 encabezado"> <h3 >Mi dinero y yo</h3> </div>
+
+        <div class="col-s-1 mano"><img id="mano" src="mano.png" alt=""/> </div>
+
+        <div class="col-s-3 menu">
+            <h2 class="opciones"><a href="index.html">Inicio</a></h2>
+            <h2 class="opciones"><a href="Categorias.html">Categorias</a></h2>
+            <h2 class="opciones"><a href="Reportes.html">Reportes</a></h2>
         </div>
+
+        <div class="col-s-1 iconoperfil"> <img id="iconoperfil" src="icono perfil.png" alt=""/></div>
+        <div class="col-s-3 nombre"> <h3 >Nombre<br><span id="cerrarSesion">Cerrar sesión</span></h3></div>
+
+        <div class="col-s-1 campana"> <img id="campana" src="campana.png" alt=""/> </div>
+        <!-- FIN BARRA DE MENU -->
+        
         <div class=" col-s-12 col-12"><h1 class="titulo-categorias">Categorias</h1></div>
         <div class="categoria-general col-s-12  col-12">
             <div class="hcategorias col-s-1 col-1"><h3 class="categorias">Hogar</h3>
