@@ -7,79 +7,106 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : Usuario
 */
 html{background: white;}
-#rectangle{
-    width:100%;
-    height: 180px;
+
+/*********BARRA DE MENU**********/
+.encabezado{
+    float: left;
+    height: 8%;
     background:rgb(12, 213, 172);
     position: relative;
-    display: inline-block;
-    padding-bottom: 1em;
+    color:white;
+    padding: 0.5em;
+    font-size: 2vw;
+    padding-left: 1em;
 }
 
-#encabezado{
+.mano{
+    padding-top: 2.1%;
+    padding-bottom: 2.1%;
+    float: left;
+    height: 8%;
+    bottom:50%;
+    background:rgb(12, 213, 172);
     
-    color: white;
-    font-family: arial, sans-serif;
-    font-size: 50px;
-    position: absolute;
-    top: 25px;
-    left: 50px;
 }
 #mano{
-    
-    position: absolute;
-    top: 45px;
-    left: 430px;
+    width: 100%;
 }
 
 .menu{
-    
-    font-family: arial, sans-serif;
-    font-size: 250%;
-    padding: 1em; 
-    color: black;
+    padding-top: 2.6%;
+    padding-bottom: 2.6%;
+    padding-left: 5%;
     float: left;
-    
-    
+    height: 15%;
+    background:rgb(12, 213, 172);
+    position: relative;
+    font-family: arial, sans-serif;
+    color: black;
+    bottom:50%;
 }
+
+.opciones{
+    float: left;
+    padding-right: 0.8em;
+    font-size: 1.5vw;
+}
+
 a{color: black;}
 
-.texto-encima{
-    position: absolute;
-    top: 5px;
-    left: 800px;
+.iconoperfil{
+    
+    padding-top: 2%;
+    padding-bottom:1.1%;
+    height: 15%;
+    position: relative;
+    background-color: rgb(12, 213, 172);
+    float: left;
 }
 
 #iconoperfil{
-    width: 10em;
-    position: absolute;
-    top: 13px;
-    left: 1750px;
+    width:75%;
 }
+
+.nombre{
+    padding-top: 1.85%;
+    float: left;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 1.5vw;
+    position: relative;
+    background-color: rgb(12, 213, 172);
+}
+
+#cerrarSesion{
+    padding-top: 0.5%;
+    font-size: 1vw;
+    background-color:rgb(12, 213, 172);;
+}
+
+.campana{
+    width: 10%;
+    padding-top: 1.49%;
+    padding-bottom:1.4%;
+    height: 15%;
+    position: relative;
+    background-color: rgb(12, 213, 172);
+    float: left;
+}
+
+#campana{
+    width:90%;
+}
+/********* FIN BARRA DE MENU**********/
 
 botton{
     position: absolute;
     height: 180px;
 }
-#nombre{
-    color: black;
-    font-family: arial, sans-serif;
-    font-size: 50px;
-    position: absolute;
-    top: 10px;
-    left: 1950px;
-    
-}
 
-#cerrarSesion{
-    color: black;
-    font-family: arial, sans-serif;
-    font-size: 25px;
-    position: absolute;
-    top: 100px;
-    left: 1950px;
-    
-}
+
+
+
 
 #rectanglePresupuesto{
     padding: 0px;
@@ -285,3 +312,47 @@ botton{
 }
 
 /*************PERFIL*************/
+/* Si el acho de la pantalla del dispositivo tiene como mínimo 600 px, aplique estos anchos a 
+   los selectores */
+@media only screen and (min-width:600px){
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}  
+    
+    h1{ font-size:4.5vw; /* Hace responsive, al 2.5% del ancho del viewport, el tipo de letra del h1  */}
+    footer {font-size:3.5vw; }
+}
+
+
+
+/* Si el acho de la pantalla del dispositivo tiene como mínimo 768 px, aplique estos anchos a 
+   los selectores */
+@media only screen and (min-width:768px){
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;} 
+
+    h1{ font-size:2.5vw; /* Hace responsive, al 2.5% del ancho del viewport, el tipo de letra del h1  */}
+    footer {font-size:0.8vw; }
+
+}

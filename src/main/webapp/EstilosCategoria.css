@@ -1,0 +1,371 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27/11/2021, 8:05:24 p. m.
+    Author     : correi5
+*/
+html{
+    background: white;
+}
+
+/****BARRA DE MENU***/
+
+.encabezado{
+    float: left;
+    
+    background:rgb(12, 213, 172);
+    position: relative;
+    color:white;
+    padding: 0.5em;
+    padding-bottom: 0.89%;
+    font-size: 2vw;
+    padding-left: 1em;
+}
+
+.mano{
+    padding-top: 2.1%;
+    padding-bottom: 2.1%;
+    float: left;
+    height: 8%;
+    bottom:50%;
+    background:rgb(12, 213, 172);
+    
+}
+#mano{
+    width: 100%;
+}
+
+.menu{
+    padding-top: 2.6%;
+    padding-bottom: 2.6%;
+    padding-left: 5%;
+    float: left;
+    height: 15%;
+    background:rgb(12, 213, 172);
+    position: relative;
+    font-family: arial, sans-serif;
+    color: black;
+    bottom:50%;
+}
+
+.opciones{
+    float: left;
+    padding-right: 0.8em;
+    font-size: 1.5vw;
+}
+
+a{color: black;}
+
+.iconoperfil{
+    
+    padding-top: 2%;
+    padding-bottom:1.1%;
+    height: 15%;
+    position: relative;
+    background-color: rgb(12, 213, 172);
+    float: left;
+}
+
+
+#iconoperfil{
+    width:75%;
+}
+
+.nombre{
+    padding-top: 1.85%;
+    float: left;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 1.5vw;
+    position: relative;
+    background-color: rgb(12, 213, 172);
+
+}
+
+
+
+
+#cerrarSesion{
+    padding-top: 0.5%;
+    font-size: 1vw;
+    background-color:rgb(12, 213, 172);;
+}
+
+.campana{
+    width: 10%;
+    padding-top: 1.49%;
+    padding-bottom:1.4%;
+    height: 15%;
+    position: relative;
+    background-color: rgb(12, 213, 172);
+    float: left;
+}
+
+#campana{
+    width:90%;
+}
+/*** FIN BARRA DE MENU****/
+
+.titulo-categorias{
+    font-family: arial,sans-serif;
+    position: relative;
+    text-align: center;
+
+}
+.vacio5{
+   float: left;
+   position: relative;
+   height: 1000px;
+      
+}
+.categoria-general{
+    font-family: arial,sans-serif;
+    position: relative;
+    text-align: center;
+    height: 10%;
+    
+    float: left 
+}
+.imagen{
+    width: 100%;
+}
+.hcategorias{
+    float: left;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 9;
+    font-family: arial,sans-serif;
+    font-size: 1vw;
+}
+
+.scategorias{
+    float: left;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 1.4%;
+    font-family: arial,sans-serif;
+    font-size: 1vw;
+}
+.acategorias{
+    float: left;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 0.2;
+    font-family: arial,sans-serif;
+    text-align: center;
+    font-size: 0.9vw;
+}
+
+.vcategorias{
+    float: left;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 0.069%;
+    font-family: arial,sans-serif;
+    font-size: 1vw;;
+}
+.tcategorias{
+    float: left;
+    padding-right: 7.1%;
+    padding-left: 7.1%;
+    padding-bottom: 3.1%;
+    font-family: arial,sans-serif;
+    font-size: 1vw;
+    
+}
+.ccategorias{
+    float: left;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-family: arial,sans-serif;
+    font-size: 1vw;
+}
+.ancategorias{
+    
+    float: left;
+    
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 2.9%;
+    font-family: arial,sans-serif;
+    font-size: 1vw;
+}
+.hocategorias{
+    
+    float: left;
+    
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 4.6%;
+    font-family: arial,sans-serif;
+    font-size: 1vw;
+}
+.mcategorias{
+    float: left;
+    
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 5.3%;
+    font-family: arial,sans-serif;
+    font-size: 1vw;
+}
+.pcategorias{
+   float: left;
+    
+    padding-right: 7.1%;
+    padding-left: 7.1%;
+    padding-bottom: 4.7%;
+    font-family: arial,sans-serif;
+    font-size: 1vw;
+}
+
+.icategorias{
+    float: left;
+    
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5.8%;
+    font-family: arial,sans-serif;
+    font-size: 1vw;
+}
+.rcategorias{
+    float: left;
+    
+    padding-right: 5%;
+    padding-left: 5%;
+  
+    font-family: arial,sans-serif;
+    font-size: 1vw;
+}
+.ecategorias{
+    float: left;
+    
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 4.3%;
+    font-family: arial,sans-serif;
+    font-size: 1vw;
+}
+.imcategorias{
+    float: left;
+    
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 5.6%;
+    font-family: arial,sans-serif;
+    font-size: 1vw;
+}
+.ahcategorias{
+    float: left;
+    
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-bottom: 2.5%;
+    font-family: arial,sans-serif;
+    font-size: 1vw;
+}
+
+
+
+/* Si el acho de la pantalla del dispositivo tiene como mínimo 600 px, aplique estos anchos a 
+   los selectores */
+@media only screen and (min-width:600px){
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+    .col-s-2 {
+        width: 16.66%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+    .col-s-10 {
+        width: 83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
+
+    h1{
+        font-size:4.5vw; /* Hace responsive, al 2.5% del ancho del viewport, el tipo de letra del h1  */
+    }
+    footer {
+        font-size:3.5vw;
+    }
+}
+
+
+
+/* Si el acho de la pantalla del dispositivo tiene como mínimo 768 px, aplique estos anchos a 
+   los selectores */
+@media only screen and (min-width:768px){
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+
+    h1{
+        font-size:2.5vw; /* Hace responsive, al 2.5% del ancho del viewport, el tipo de letra del h1  */
+    }
+    footer {
+        font-size:0.8vw;
+    }
+
+}
