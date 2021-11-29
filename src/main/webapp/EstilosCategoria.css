@@ -10,7 +10,8 @@ html{
     background: white;
 }
 
-/*********BARRA DE MENU**********/
+/****BARRA DE MENU***/
+
 .encabezado{
     float: left;
     
@@ -67,6 +68,7 @@ a{color: black;}
     float: left;
 }
 
+
 #iconoperfil{
     width:75%;
 }
@@ -79,7 +81,11 @@ a{color: black;}
     font-size: 1.5vw;
     position: relative;
     background-color: rgb(12, 213, 172);
+
 }
+
+
+
 
 #cerrarSesion{
     padding-top: 0.5%;
@@ -100,7 +106,7 @@ a{color: black;}
 #campana{
     width:90%;
 }
-/********* FIN BARRA DE MENU**********/
+/*** FIN BARRA DE MENU****/
 
 .titulo-categorias{
     font-family: arial,sans-serif;
@@ -108,80 +114,160 @@ a{color: black;}
     text-align: center;
 
 }
+.vacio5{
+   float: left;
+   position: relative;
+   height: 1000px;
+      
+}
 .categoria-general{
     font-family: arial,sans-serif;
     position: relative;
     text-align: center;
     height: 10%;
-    background-color: skyblue;
+    
+    float: left 
+}
+.imagen{
+    width: 100%;
 }
 .hcategorias{
     float: left;
-    background-color: red;
+    
+    padding-right: 5%;
+    padding-left: 5%;
+    font-family: arial,sans-serif;
+    font-size: 153%;
 }
 
 .scategorias{
-    float:left;
-    background-color: blue;
+    float: left;
+    
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 1.5%;
+    font-family: arial,sans-serif;
+    font-size: 148%;
 }
 .acategorias{
     float: left;
-    background-color: blueviolet;
+    
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-top: 0.5%;
+    font-family: arial,sans-serif;
+    text-align: center;
+    font-size: 118%;
 }
 
 .vcategorias{
     float: left;
-    background-color: brown;
+    
+    padding-right: 6%;
+    padding-left: 6%;
+    font-family: arial,sans-serif;
+    font-size: 137%;
 }
 .tcategorias{
     float: left;
-    background-color: yellow;
+    
+    padding-right: 7.1%;
+    padding-left: 7.1%;
+    font-family: arial,sans-serif;
+    font-size: 187%;
+    
 }
 .ccategorias{
-    background-color: blue;
-
+    float: left;
+    
+    padding-right: 5%;
+    padding-left: 5%;
+    font-family: arial,sans-serif;
+    font-size: 150%;
 }
 .ancategorias{
     
     float: left;
-    background-color: yellow;
+    
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 2.9%;
+    font-family: arial,sans-serif;
+    font-size: 150%;
 }
 .hocategorias{
     
     float: left;
-    background-color: brown;
+    
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 4.6%;
+    font-family: arial,sans-serif;
+    font-size: 150%;
 }
 .mcategorias{
-    background-color: blueviolet;
-     float: left;
+    float: left;
+    
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 5.3%;
+    font-family: arial,sans-serif;
+    font-size: 150%;
 }
 .pcategorias{
-    background-color: blue;
-     float: left;
+   float: left;
+    
+    padding-right: 7.1%;
+    padding-left: 7.1%;
+    padding-bottom: 4.7%;
+    font-family: arial,sans-serif;
+    font-size: 150%;
 }
-.pcategorias{
-     background-color: blue;
-     float: left;
-}
-.icategorias{
-     background-color: blueviolet;
 
+.icategorias{
+    float: left;
+    
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5.8%;
+    font-family: arial,sans-serif;
+    font-size: 150%;
 }
 .rcategorias{
-     float: left;
-    background-color: brown;
+    float: left;
+    
+    padding-right: 5%;
+    padding-left: 5%;
+  
+    font-family: arial,sans-serif;
+    font-size: 150%;
 }
 .ecategorias{
-    background-color: blueviolet;
-     float: left;
+    float: left;
+    
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 4.3%;
+    font-family: arial,sans-serif;
+    font-size: 150%;
 }
 .imcategorias{
     float: left;
-    background-color: brown;
+    
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 5.6%;
+    font-family: arial,sans-serif;
+    font-size: 150%;
 }
 .ahcategorias{
     float: left;
-    background-color: yellow;
+    
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-bottom: 2.5%;
+    font-family: arial,sans-serif;
+    font-size: 150%;
 }
 
 
